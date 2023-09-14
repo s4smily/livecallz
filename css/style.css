@@ -1,0 +1,241 @@
+/* Global CSS */
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, a {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* Global CSS */
+
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/* Header Section */
+
+header{
+
+margin-top: 15px;
+}
+
+.navbar{
+
+    margin: 0;
+    padding: 0;
+}
+
+.collapse{
+
+    justify-content: end;
+}
+
+.navbar-brand img{
+
+    width: 120px;
+}
+
+.topshadow{
+
+position: absolute;
+
+top: -25%;
+
+right: 0px;
+
+width: 65%;
+
+z-index: -1;
+
+padding: 0;
+}
+
+.topshadow img{
+
+width: 100%;
+}
+
+/* Header Section */
+
+/* Banner Section */
+
+.banner{
+
+margin: 50px 0;
+
+position: relative;
+}
+
+.bannerrow{justify-content: space-between;}
+
+/* <!-- Column 1 - We provide High Quality --> */
+.bannerright{
+
+margin: 5% 0;
+}
+
+.bannerright h5{
+
+font-size: 20px;
+
+font-weight: 400;
+}
+
+.FREE{
+
+border: none;
+
+padding: 0;
+
+border: 1px solid #0e66b4;
+
+background: #0c64b5;
+
+color: white;
+
+padding: 7px 15px;
+
+font-weight: bolder;
+
+margin: 15px 0;
+}
+
+.highquality{
+
+width: 167px;
+
+margin-bottom: 15px;
+}
+
+.highquality h3{
+
+font-weight: 700;
+}
+
+.highquality h3 span{
+
+color: #277bca;
+}
+
+/* <!-- Column 1 - We provide High Quality --> */
+
+
+/* <!-- Column 2 -Photo --> */
+
+.bannerimage{
+}
+
+.bannerimage img{
+
+width: 100%;
+}
+
+/* <!-- Column 2 -Photo --> */
+
+
+/* <!-- Live Calls Section --> */
+
+.livecalls{
+
+
+}
+
+.callsone{
+
+
+}
+
+.callsimg{
+
+width: 95%;
+}
+
+.callsimg img{
+
+width: 100%;
+}
+
+.callswrap{
+
+margin-top: 100px;
+
+/* width: 150px; */
+
+text-align: end;
+
+margin-left: 313px;
+}
+
+.callswrap h2{
+
+font-weight: 700;
+}
+
+.callswrap h2 span{
+
+color: #277bca;
+}
+
+.col-two p{
+
+/* width: 60%; */
+
+margin: 10px 0;
+
+/* display: inline; */
+
+text-align: end;
+
+margin-left: 25%;
+}
+
+/* <!-- Second row with features --> */
+
+.callstwo{
+
+justify-content: space-between;
+
+margin-bottom: 50px;
+}
+
+.shadowbg{
+
+background: #e9f0f7;
+
+padding: 30px;
+
+border-radius: 10px;
+
+margin-top: 25px;
+}
+
+.shadowbg p{
+
+margin-top: 10px;
+}
+
+.title{
+
+display: flex;
+}
+
+.icon{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.icon img{
+
+width: 100%;
+}
+
+.title h3{
+
+    
+}
+
