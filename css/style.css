@@ -126,6 +126,12 @@ margin: 25px 0;
 font-size: 20px;
 }
 
+.FREE:hover{
+
+    background-color: black;
+    color: white;
+}
+
 .highquality{
 
 width: 300px;
