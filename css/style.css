@@ -246,7 +246,7 @@ margin-top: 100px;
 
 text-align: end;
 
-margin-left: 230px;
+margin-bottom: 20px;
 }
 
 .callswrap h2{font-weight: 700;font-size: 50px;}
@@ -268,7 +268,9 @@ text-align: end;
 
 /* margin-left: 7%; */
 
-font-size: 25px;
+font-size: 20px;
+
+font-weight: 500;
 }
 
 /* <!-- Second row with features --> */
