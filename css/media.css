@@ -1,14 +1,693 @@
-@media(max-width:768px){
+@media(min-width:768px) and (max-width:991px){
+
+    .nav-link {
+        color: white;
+
+    }
+
+    .topshadow {
+        width: 70%;
+
+    }
+
+    .callswrap {
+        margin-top: 50px;
+    }
+
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+    
+    .offcanvas-body {
+        background: #0961b1;
+    }
+    .FREE {
+        margin-top: 40px;
+    }
+
+    .footerfirst{
+
+        z-index: 1;
+    }
+    .footersecond h6 {
+        margin-top: 18px;
+    }
+
+    .footerfirst h6 {
+        margin-top: 32px;
+    }
+
+    .footersecond ul {
+     
+display: block;
+     
+text-align: end;
+    }
+
+    .footerlist {
+        margin: 0;
+
+    }
+
+    .number {
+        border: none;
+        padding: 0;
+        align-items: center;
+        margin: 0;
+    }
+
+    .banner {
+        padding-bottom: 100px;
+    }
+
+    .col-two {
+        margin-top: 35px;
+    }
+
+    .title h3 {
+        font-size: 25px;
+
+    }
+
+    .icon {
+        width: 75px;
+        margin-right: 20px;
+    }
+
+    .boxone {
+        height: 300px;
+    }
 
 
+    .boxtwo {
+        height: 300px;
+    }
 
-  
+    .subtitle h4 {
+        font-size: 25px;
+    }
+
+    .boxone p {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+
+    .boxtwo p {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+
+    .getphoto {
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    .textbox {
+
+        padding: 0 5px;
+        position: absolute;
+        bottom: 28%;
+        transform: translateY(32%);
+        padding: 0 20px;
+
+     
+    }
+
+    .textbox p {
+        font-size: 13px;
+    }
+
+    .textbox h2 {
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .bottomshadow {
+        position: absolute;
+        width: 70%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+    
+    .footerfirst{
+
+        z-index: 1;
+    }
+    
+    .stepscol{
+        
+        margin: auto;
+    }
+
+    
+    .textbox h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .nav-link {
+        color: #0c64b5;
+        font-weight: 400;
+        text-align: center !important;
+    }
+
+    .topshadow {
+
+        top: -65px;
+        width: 74%;
+    }
+
+    .bannerimage {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .offcanvas-title img{
+
+        width: 130px;
+
+    }
+
+    
+    .nav-item{
+
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+
+    .borders:hover.borders a{
+
+        color: black;
+    }
+    
+
+    .highquality h3 {
+
+font-size: 38px;
+
+margin-top: 0;
 
 }
 
-@media(max-width:425px){
+
+    .FREE {
+    
+        padding: 10px 10px;
+
+        font-size: 14px;
+    }
+
+    .bannerrow {
+
+        flex-direction: column-reverse;
+    }
+
+    .whiteshadow {
+
+        top: 93%;
+    }
+
+    .callswrap {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .bannerright h5 {
+        font-size: 20px;
+        color: #0c64b5;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .col-two p {
+
+font-size: 20px;
+
+font-weight: normal;
+
+}
+
+    .icon {
+        width: 65px;
+        margin-right: 30px;
+    }
+
+    .title h3 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    .shadowbg p {
+        font-size: 19px;
+    }
+
+    .shadowbg {
+        padding: 12px;
+        height: 290px;
+    }
+
+    .livecalls {
+        padding-bottom: 15px;
+    }
+
+    .centertitle h2 {
+        font-size: 35px;
+    }
+
+    .centertitle {
+        margin-bottom: 45px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .getphoto {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .subtitle h4 {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .boxone p {
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+    .boxtwo {
+
+margin-top: 25px;
+
+height: 250px;
+
+}
+
+    .boxone {
+        height: 280px;
+    }
+
+    .boxtwo p {
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+    .getcol {
+        margin-bottom: 25px;
+    }
+
+    .getrow{
+
+        justify-content: center;
+    }
+
+    .textbox {
+        bottom: 22%;
+        transform: translateY(25%);
+    }
+
+    .textbox p {
+        font-size: 14px;
+    }
+    .processrow{
+
+        justify-content: center;
+    }
+
+    .logopng {
+        text-align: center;
+        width: 90px;
+        margin: auto;
+    }
+
+    .sectorcol h2 {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .list ul li {
+        display: flex;
+        padding-bottom: 11px;
+        justify-content: center;
+    }
+
+    .list ul li h6 {
+
+font-size: 20px;
+}
+
+    .getbutton2{
+
+        margin: 0;
+    }
+
+    .accordion-button {
+
+        font-size: 25px;
+        font-weight: 500;
+        justify-content: center;
+
+    }
+
+    .titlefaq h2 {
+        margin-bottom: 40px;
+        margin-top: 50px;
+
+    }
+
+    .faq {
+        padding-bottom: 0px;
+    }
+
+    .logo{
+
+        text-align: center;
+    }
+
+    .footersecond ul {
+        display: block;
+     
+    }
+
+    .footerfirst h6 {
+        text-align: center;
+    }
+
+   
+
+    .footersecond h6 {
+        color: black;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .callsimg {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bgimg img {
+        width: 100%;
+    }
+}
+
+@media(min-width:426px) and (max-width:575px){
 
 
+
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+
+
+    .textbox h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .nav-link {
+        color: #0c64b5;
+        font-weight: 400;
+        text-align: center !important;
+    }
+
+    .topshadow {
+
+        top: -65px;
+        width: 74%;
+    }
+
+    .bannerimage {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .offcanvas-title img{
+
+        width: 130px;
+
+    }
+
+    
+    .nav-item{
+
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+
+    .borders:hover.borders a{
+
+        color: black;
+    }
+    
+
+    .highquality h3 {
+
+font-size: 38px;
+
+margin-top: 0;
+
+}
+
+
+    .FREE {
+    
+        padding: 10px 10px;
+
+        font-size: 14px;
+    }
+
+    .bannerrow {
+
+        flex-direction: column-reverse;
+    }
+
+    .whiteshadow {
+
+        top: 93%;
+    }
+
+    .callswrap {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .bannerright h5 {
+        font-size: 20px;
+        color: #0c64b5;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .col-two p {
+
+font-size: 20px;
+
+font-weight: normal;
+
+}
+
+    .icon {
+        width: 65px;
+        margin-right: 30px;
+    }
+
+    .title h3 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    .shadowbg p {
+        font-size: 19px;
+    }
+
+    .shadowbg {
+        padding: 12px;
+        height: 290px;
+    }
+
+    .livecalls {
+        padding-bottom: 15px;
+    }
+
+    .centertitle h2 {
+        font-size: 35px;
+    }
+
+    .centertitle {
+        margin-bottom: 45px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .getphoto {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .subtitle h4 {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .boxone p {
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+    .boxtwo {
+
+        margin-top: 25px;
+        height: 320px;
+    }
+
+    .boxone {
+        height: 280px;
+    }
+
+    .boxtwo p {
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+    .getcol {
+        margin-bottom: 25px;
+    }
+
+    .getrow{
+
+        justify-content: center;
+    }
+
+    .textbox {
+        bottom: 37%;
+        transform: translateY(25%);
+    }
+
+    .textbox p {
+        font-size: 20px;
+    }
+    .processrow{
+
+        justify-content: center;
+    }
+
+    .logopng {
+        text-align: center;
+        width: 90px;
+        margin: auto;
+    }
+
+    .sectorcol h2 {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .list ul li {
+        display: flex;
+        padding-bottom: 11px;
+        justify-content: center;
+    }
+
+    .list ul li h6 {
+
+font-size: 20px;
+}
+
+    .getbutton2{
+
+        margin: 0;
+    }
+
+    .accordion-button {
+
+        font-size: 25px;
+        font-weight: 500;
+        justify-content: center;
+
+    }
+
+    .titlefaq h2 {
+        margin-bottom: 40px;
+        margin-top: 50px;
+
+    }
+
+    .faq {
+        padding-bottom: 0px;
+    }
+
+    .logo{
+
+        text-align: center;
+    }
+
+    .footersecond ul {
+        display: block;
+     
+    }
+
+    .footerfirst h6 {
+        text-align: center;
+    }
+
+   
+
+    .footersecond h6 {
+        color: black;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .callsimg {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bgimg img {
+        width: 100%;
+    }
+}
+
+@media(min-width:376px) and (max-width:425px){
+
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+    .textbox h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 35px;
+    }
 
     .nav-link {
         color: #0c64b5;
@@ -43,10 +722,10 @@
 
     .highquality h3 {
 
-font-size: 38px;
+    font-size: 38px;
 
-margin-top: 35px;
-}
+    margin-top: 35px;
+    }
 
 
     .FREE {
@@ -207,6 +886,7 @@ font-size: 20px;
 
         font-size: 25px;
         font-weight: 500;
+        justify-content: center;
 
     }
 
@@ -245,9 +925,19 @@ font-size: 20px;
     }
 }
 
-@media(max-width:375px){
+@media(min-width:321px) and (max-width:375px){
 
-
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+    
+    .textbox h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 35px;
+    }
 
     .nav-link {
         color: #0c64b5;
@@ -446,6 +1136,7 @@ font-size: 20px;
 
         font-size: 25px;
         font-weight: 500;
+        justify-content: center;
 
     }
 
@@ -487,7 +1178,17 @@ font-size: 20px;
 @media(max-width:320px){
 
 
-
+    .borders {
+        border: none;
+        border-radius: 0;
+    }
+    
+    .textbox h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 35px;
+    }
     .offcanvas-title img{
 
         width: 130px;
@@ -686,6 +1387,7 @@ font-size: 16px;
 
         font-size: 25px;
         font-weight: 500;
+        justify-content: center;
 
     }
 
@@ -722,4 +1424,6 @@ font-size: 16px;
         text-align: center;
         font-size: 10px;
     }
+
+    
 }
